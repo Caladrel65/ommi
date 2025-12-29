@@ -1,55 +1,27 @@
-<script>
-	import Header from './Header.svelte';
-	import './layout.css';
+<nav>
+  <a href="/">Home</a>
+  <a href="/about">About Us</a>
+  <a href="/curriculum">Curriculum</a>
+  <a href="/tuition-fees">Tuition/Fees</a>
+  <a href="/student-clinic">Student Clinic</a>
+  <a href="/contact">Contact Us</a>
+</nav>
 
-	let { children } = $props();
-</script>
-
-<div class="app">
-	<Header />
-	<main>{@render children()}</main>
-	<footer>
-		<p>
-			visit
-			<a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a>
-			to learn about SvelteKit
-		</p>
-	</footer>
-</div>
+<main>
+  <slot></slot>
+</main>
 
 <style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1em;
+  }
 
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
+  a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+  }
 </style>
