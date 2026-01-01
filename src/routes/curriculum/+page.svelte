@@ -1,11 +1,37 @@
-<h1>Curriculum</h1>
+<div class="container">
+  <header>
+    <h1>Curriculum</h1>
+  </header>
 
-<h2>Graduation Requirements</h2>
-<p>To successfully graduate from Ozark Mountain Massage Institute, students must meet the following criteria:</p>
-<ul>
-    <li>Complete a minimum of 500 hours of the approved curriculum, which includes both lecture and hands-on technique training.</li>
-    <li>Pass all chapter exams, the mid-term examination, and the final examination with a minimum grade of 70%.</li>
-    <li>Fulfill all financial obligations to the Institute.</li>
-    <li>Comply with all attendance and conduct policies throughout the program.</li>
-</ul>
-<p>Only students who meet all of these requirements will be eligible to receive a certificate of graduation.</p>
+  <h2>Graduation Requirements</h2>
+  <p>To successfully graduate from Ozark Mountain Massage Institute, students must meet the following criteria:</p>
+  <ul>
+      <li>Complete a minimum of 500 hours of the approved curriculum, which includes both lecture and hands-on technique training.</li>
+      <li>Pass all chapter exams, the mid-term examination, and the final examination with a minimum grade of 70%.</li>
+      <li>Fulfill all financial obligations to the Institute.</li>
+      <li>Comply with all attendance and conduct policies throughout the program.</li>
+  </ul>
+  <p>Only students who meet all of these requirements will be eligible to receive a certificate of graduation.</p>
+</div>
+
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    margin-top: 1.5em;
+  }
+</style>
