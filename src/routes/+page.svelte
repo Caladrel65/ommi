@@ -8,17 +8,15 @@
     <div class="new-section-container">
       <div class="left-panel">
         <div>
-          <h2>Placeholder Header</h2>
+          <h2>Train today for a rewarding career in the rapidly growing wellness industry</h2>
         </div>
         <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.
-          </p>
+          <p>Transform your passion for wellness into a career in massage therapy. A new path. A new purpose. A new career - all in under a year!</p>
         </div>
       </div>
       <div class="right-panel">
-        <img src="https://via.placeholder.com/400x250" alt="Placeholder Image" />
+        <!-- <img src="https://via.placeholder.com/400x250" alt="Placeholder Image"/> -->
+        <img src="https://images.unsplash.com/photo-1598901986949-f593ff2a31a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXNzYWdlJTIwdGhlcmFweSUyMHdlbGxuZXNzfGVufDF8fHx8MTc2MjYxNjE5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Woman recieving a head massage"/>
       </div>
     </div>
   </section>
@@ -108,6 +106,7 @@
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px;
   }
 
   .container {
