@@ -1,7 +1,27 @@
 <div class="container">
+  <!-- Can we put "Ozark Mountain Massage Institute" in the header navbar, to the left of the links? -->
   <header>
     <h1>Ozark Mountain Massage Institute</h1>
   </header>
+
+  <section>
+    <div class="new-section-container">
+      <div class="left-panel">
+        <div>
+          <h2>Placeholder Header</h2>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="right-panel">
+        <img src="https://via.placeholder.com/400x250" alt="Placeholder Image" />
+      </div>
+    </div>
+  </section>
 
   <section>
     <h2>Message from the Director</h2>
@@ -69,6 +89,27 @@
 </div>
 
 <style>
+  .new-section-container {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+
+  .left-panel {
+    flex: 1;
+  }
+
+  .right-panel {
+    flex: 1;
+  }
+
+  .right-panel img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   .container {
     max-width: 800px;
     margin: 0 auto;
