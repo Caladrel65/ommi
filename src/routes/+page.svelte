@@ -93,11 +93,11 @@
   }
 
   /* Specific styling for the image in the first section */
-  .first-section-image {
-    height: 100px;
-    width: auto; /* Allow width to adjust based on height */
+  .full-width-section .right-panel .first-section-image {
+    width: 100%;
+    height: 500px;
     max-width: 700px;
-    object-fit: cover; /* Ensures image covers the area without distortion */
+    object-fit: cover; /* This will crop the image to fit, preserving aspect ratio */
   }
 
   .content-container {
@@ -174,9 +174,8 @@
       width: 100%;
       text-align: center;
     }
-    .full-width-section .first-section-image {
+    .full-width-section .right-panel .first-section-image {
         max-width: 100%; /* Ensure image doesn't overflow on small screens */
-        width: auto; /* Re-adjust width based on height and max-width */
     }
   }
 </style>
