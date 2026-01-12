@@ -33,6 +33,41 @@
     <p>At Ozark Mountain Massage Institute, our mission is to nurture and empower aspiring therapists with the knowledge, skills, and compassion needed to excel in the art of healing touch. Through a comprehensive and holistic approach to education, we strive to cultivate an environment of excellence and integrity, fostering personal and professional growth in each student.</p>
     <p>We are committed to producing graduates who are not only adept in therapeutic techniques but also uphold the highest standards of ethics and empathy, serving their clients with respect and dignity. Our aim is to contribute positively to the health and wellness of our community and beyond.</p>
    </section>
+
+  <!-- New Section with Image on the Left -->
+  <section>
+    <div class="new-section-container">
+      <div class="left-panel">
+        <!-- TODO: Alt text -->
+        <img src="https://images.unsplash.com/photo-1758206523705-666590ae0a66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwZWR1Y2F0aW9uJTIwY2xhc3Nyb29tfGVufDF8fHx8MTc2MjYxMzcxNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="TODO: alt text after I find a good pic"/>
+      </div>
+      <div class="right-panel">
+        <div class="stacked-blocks-container">
+          <div class="stacked-block">
+            <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="heart icon" class="icon"/>
+            <div class="text-content">
+              <h3>Expert Faculty</h3>
+              <p>Learn from licensed massage therapists with decades of combined experience in clinical, spa, and sports massage settings.</p>
+            </div>
+          </div>
+          <div class="stacked-block">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/concentric-icon.png" alt="cocentric circles similar to a bullseye" class="icon"/>
+            <div class="text-content">
+              <h3>Hands-On Training</h3>
+              <p>Our curriculum emphasizes practical experience with extensive hands-on practice in our state-of-the-art training facilities.</p>
+            </div>
+          </div>
+          <div class="stacked-block">
+            <img src="https://cdn-icons-png.freepik.com/512/6808/6808239.png" alt="sparkles" class="icon"/>
+            <div class="text-content">
+              <h3>Career Support</h3>
+              <p>From resume building to job placement assistance, we support you every step of the way as you launch your massage therapy career.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 
 <style>
@@ -51,6 +86,7 @@
     flex: 1;
   }
 
+  .left-panel img,
   .right-panel img {
     width: 100%;
     height: auto;
@@ -76,5 +112,38 @@
   h2 {
     font-size: 1.8em;
     margin-top: 1.5em;
+  }
+
+  .stacked-blocks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .stacked-block {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 8px;
+  }
+
+  .stacked-block .icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .stacked-block .text-content {
+    flex-grow: 1;
+  }
+
+  .stacked-block h3 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.2em;
+  }
+
+  .stacked-block p {
+    margin: 0;
   }
 </style>
