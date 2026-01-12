@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="right-panel">
-          <img src="https://images.unsplash.com/photo-1598901986949-f593ff2a31a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXNzYWdlJTIwdGhlcmFweSUyMHdlbGxuZXNzfGVufDF8fHx8MTc2MjYxNjE5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Woman recieving a head massage"/>
+          <img src="https://images.unsplash.com/photo-1598901986949-f593ff2a31a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXNzYWdlJTIwdGhlcmFweSUyMHdlbGxuZXNzfGVufDF8fHx8MTc2MjYxNjE5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Woman recieving a head massage" class="first-section-image"/>
         </div>
       </div>
   </section>
@@ -72,7 +72,7 @@
     gap: 2em;
     align-items: center;
     margin-bottom: 2em;
-    padding: 0 2em; /* Added padding here for full-width content */
+    padding: 0 2em;
   }
 
   .left-panel {
@@ -83,12 +83,21 @@
     flex: 1;
   }
 
+  /* Generic image styling, will be overridden by more specific classes where needed */
   .left-panel img,
   .right-panel img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 10px;
+  }
+
+  /* Specific styling for the image in the first section */
+  .first-section-image {
+    height: 100px;
+    width: auto; /* Allow width to adjust based on height */
+    max-width: 700px;
+    object-fit: cover; /* Ensures image covers the area without distortion */
   }
 
   .content-container {
@@ -151,5 +160,23 @@
 
   .stacked-block p {
     margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .full-width-section .new-section-container {
+      flex-direction: column;
+      gap: 1em;
+      align-items: center;
+    }
+    .full-width-section .left-panel,
+    .full-width-section .right-panel {
+      flex: none;
+      width: 100%;
+      text-align: center;
+    }
+    .full-width-section .first-section-image {
+        max-width: 100%; /* Ensure image doesn't overflow on small screens */
+        width: auto; /* Re-adjust width based on height and max-width */
+    }
   }
 </style>
