@@ -1,12 +1,5 @@
 <div class="page-wrapper">
-  <header>
-    <div class="content-container">
-      <h1>Ozark Mountain Massage Institute</h1>
-    </div>
-  </header>
-
   <section class="full-width-section">
-    <div class="content-container">
       <div class="new-section-container">
         <div class="left-panel">
           <div>
@@ -20,7 +13,6 @@
           <img src="https://images.unsplash.com/photo-1598901986949-f593ff2a31a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXNzYWdlJTIwdGhlcmFweSUyMHdlbGxuZXNzfGVufDF8fHx8MTc2MjYxNjE5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Woman recieving a head massage"/>
         </div>
       </div>
-    </div>
   </section>
 
   <section>
@@ -80,6 +72,7 @@
     gap: 2em;
     align-items: center;
     margin-bottom: 2em;
+    padding: 0 2em; /* Added padding here for full-width content */
   }
 
   .left-panel {
@@ -116,11 +109,6 @@
     padding: 2em;
     margin: 2em auto;
     max-width: 800px;
-  }
-
-  header {
-    text-align: center;
-    margin-bottom: 2em;
   }
 
   h1 {
