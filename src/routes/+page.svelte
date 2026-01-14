@@ -1,5 +1,5 @@
 <div class="page-wrapper">
-  <section class="full-width-section">
+  <section class="full-width-green-background-section">
       <div class="new-section-container">
         <div class="left-panel">
           <div>
@@ -22,7 +22,7 @@
     </div>
   </section>
 
-  <section class="mission-statement-section">
+  <section class="round-green-background-section">
     <div class="content-container">
       <h2>Mission Statement</h2>
       <p>At Ozark Mountain Massage Institute, our mission is to nurture and empower aspiring therapists with the knowledge, skills, and compassion needed to excel in the art of healing touch. Through a comprehensive and holistic approach to education, we strive to cultivate an environment of excellence and integrity, fostering personal and professional growth in each student.</p>
@@ -64,7 +64,52 @@
       </div>
     </div>
   </section>
+
+  <section class="full-width-green-background-section">
+    <div class="new-section-container">
+      <h2>School Overview</h2>
+    </div>
+    <section class="round-white-background-section">
+      <p>Ozark Mountain Massage Institute offers a fully accredited massage therapy program designed to prepare students for licensure and successful careers in a variety of clinical and wellness settings. Our 500 hour curriculum combines hands-on learning, theoretical study, and professional development to equip students for the demands of this dynamic field.</p>
+      <p>Ozark Mountain Massage Institute operates in full compliance with the Arkansas Massage Therapy Act, codified under Arkansas Code §17-86-101 et seq. The Arkansas Department of Health (ADH) is the regulatory authority overseeing all aspects of massage therapy practice, including school licensure, student enrollment, and practitioner licensing.</p>
+    </section>
+    <section>
+      <div class="stacked-blocks-container">
+            <div class="round-white-background-section">
+              <div class="round-green-background-section">
+                <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="heart icon" class="icon"/>
+              </div>
+              <div class="text-content">
+                <h3>Expert Faculty</h3>
+                <p>Learn from licensed massage therapists with decades of combined experience in clinical, spa, and sports massage settings.</p>
+              </div>
+            </div>
+            <div class="round-white-background-section">
+              <div class="round-green-background-section">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/concentric-icon.png" alt="cocentric circles similar to a bullseye" class="icon"/>
+              </div>
+              <div class="text-content">
+                <h3>Hands-On Training</h3>
+                <p>Our curriculum emphasizes practical experience with extensive hands-on practice in our state-of-the-art training facilities.</p>
+              </div>
+            </div>
+            <div class="round-white-background-section">
+              <div class="round-green-background-section">
+                <img src="https://cdn-icons-png.freepik.com/512/6808/6808239.png" alt="sparkles" class="icon"/>
+              </div>
+              <div class="text-content">
+                <h3>Career Support</h3>
+                <p>From resume building to job placement assistance, we support you every step of the way as you launch your massage therapy career.</p>
+              </div>
+            </div>
+          </div>
+    </section>
+  </section>
 </div>
+
+<!-- Green is "rooftop garden", blue is "tahoe blue", and there's another one too. -->
+<!-- Rooftop Garden is #A0AC94 -->
+<!-- Tahoe Blue is #93B8C1 -->
 
 <style>
   .new-section-container {
@@ -93,11 +138,11 @@
   }
 
   /* Specific styling for the image in the first section */
-  .full-width-section .right-panel .first-section-image {
+  .full-width-green-background-section .right-panel .first-section-image {
     width: 100%;
     height: 500px;
     max-width: 700px;
-    object-fit: cover; /* This will crop the image to fit, preserving aspect ratio */
+    object-fit: cover; /* This will crop the image to fit, preserving aspect ratio */ /* Allegedly 𓅦 */
   }
 
   .content-container {
@@ -106,15 +151,24 @@
     padding: 0 2em;
   }
 
-  .full-width-section {
-    background-color: #EFFDF9;
+  .full-width-green-background-section {
+    background-color: #EFFDF9; /* #A0AC94 seems too harsh though unless we can bring the whole tone down. */
     padding-top: 2em;
     padding-bottom: 2em;
   }
 
-  .mission-statement-section {
+  .round-green-background-section {
     background-color: #EFFDF9;
     border-radius: 15px;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 800px;
+  }
+
+  .round-white-background-section {
+    background-color: white;
+    border-radius: 15px;
+    border-color: black;
     padding: 2em;
     margin: 2em auto;
     max-width: 800px;
@@ -163,18 +217,18 @@
   }
 
   @media (max-width: 768px) {
-    .full-width-section .new-section-container {
+    .full-width-green-background-section .new-section-container {
       flex-direction: column;
       gap: 1em;
       align-items: center;
     }
-    .full-width-section .left-panel,
-    .full-width-section .right-panel {
+    .full-width-green-background-section .left-panel,
+    .full-width-green-background-section .right-panel {
       flex: none;
       width: 100%;
       text-align: center;
     }
-    .full-width-section .right-panel .first-section-image {
+    .full-width-green-background-section .right-panel .first-section-image {
         max-width: 100%; /* Ensure image doesn't overflow on small screens */
     }
   }

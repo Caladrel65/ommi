@@ -16,12 +16,16 @@
   <slot />
 </main>
 
+<footer class="footer">
+  <p>Hi!</p>
+</footer>
+
 <style>
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #333; /* #333 Alternatively #A0AC94 or #93B8C1 but those seem too light now. */
     padding: 1em;
   }
 
