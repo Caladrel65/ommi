@@ -153,13 +153,13 @@
   }
 
   .full-width-green-background-section {
-    background-color: #EFFDF9; /* #A0AC94 seems too harsh though unless we can bring the whole tone down. */
+    background-color: var(--color-light-background); /* #A0AC94 seems too harsh though unless we can bring the whole tone down. */
     padding-top: 2em;
     padding-bottom: 2em;
   }
 
   .round-green-background-section {
-    background-color: #EFFDF9;
+    background-color: var(--color-light-background);
     border-radius: 15px;
     padding: 2em;
     margin: 2em auto;
@@ -167,9 +167,9 @@
   }
 
   .round-white-background-section {
-    background-color: white;
+    background-color: var(--color-background-light);
     border-radius: 15px;
-    border-color: black;
+    border-color: var(--color-dark);
     padding: 2em;
     margin: 2em auto;
     max-width: 800px;
