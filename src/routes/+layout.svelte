@@ -12,7 +12,7 @@
   </nav>
 </header>
 
-<main>
+<main style="flex-grow: 1;">
   <slot />
 </main>
 
@@ -46,5 +46,13 @@
     color: white;
     padding: 1em;
     text-decoration: none;
+  }
+
+  .footer {
+    background-color: #333; /* Match header or choose a complementary color */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
   }
 </style>
