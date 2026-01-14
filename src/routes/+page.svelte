@@ -66,7 +66,7 @@
   </section>
 
   <section class="full-width-green-background-section">
-    <div class="new-section-container">
+    <div class="new-section-container centered-heading-container">
       <h2>School Overview</h2>
     </div>
     <section class="round-white-background-section">
@@ -77,6 +77,7 @@
       <div class="stacked-blocks-container">
             <div class="round-white-background-section">
               <div class="round-green-background-section">
+                <!-- We actually want to make these a darker green than the rest -->
                 <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="heart icon" class="icon"/>
               </div>
               <div class="text-content">
@@ -183,6 +184,10 @@
     margin-top: 1.5em;
   }
 
+  .centered-heading-container {
+    justify-content: center;
+  }
+
   .stacked-blocks-container {
     display: flex;
     flex-direction: column;
@@ -212,8 +217,23 @@
     font-size: 1.2em;
   }
 
+  .stacked-blocks-container .round-white-background-section .round-green-background-section {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .stacked-blocks-container .round-white-background-section {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+  }
   .stacked-block p {
     margin: 0;
+  }
+
+  .round-white-background-section .round-green-background-section .icon {
+    width: 25px;
+    height: 25px;
   }
 
   @media (max-width: 768px) {
