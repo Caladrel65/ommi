@@ -74,33 +74,41 @@
       <p>Ozark Mountain Massage Institute operates in full compliance with the Arkansas Massage Therapy Act, codified under Arkansas Code §17-86-101 et seq. The Arkansas Department of Health (ADH) is the regulatory authority overseeing all aspects of massage therapy practice, including school licensure, student enrollment, and practitioner licensing.</p>
     </section>
     <section>
-      <div class="stacked-blocks-container">
+      <div class="stacked-blocks-container school-overview-blocks">
             <div class="round-white-background-section">
-              <div class="round-green-background-section">
-                <!-- We actually want to make these a darker green than the rest -->
-                <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="heart icon" class="icon"/>
+              <div class="round-green-background-section darker-green-background">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ45k8GTfZHqAcNRbHiuvnHnsTseEkyOZ6YDQ&s" alt="book icon" class="icon"/>
               </div>
               <div class="text-content">
-                <h3>Expert Faculty</h3>
-                <p>Learn from licensed massage therapists with decades of combined experience in clinical, spa, and sports massage settings.</p>
+                <h3>500 Hour Curriculum</h3>
+                <p>Comprehensive program combining hands-on techniques, theoretical knowledge, and practical application.</p>
               </div>
             </div>
             <div class="round-white-background-section">
-              <div class="round-green-background-section">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/concentric-icon.png" alt="cocentric circles similar to a bullseye" class="icon"/>
+              <div class="round-green-background-section darker-green-background">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/018/887/334/small/black-award-icon-png.png" alt="award icon" class="icon"/>
               </div>
               <div class="text-content">
-                <h3>Hands-On Training</h3>
-                <p>Our curriculum emphasizes practical experience with extensive hands-on practice in our state-of-the-art training facilities.</p>
+                <h3>Fully Accredited</h3>
+                <p>Program meets all Arkansas Department of Health requirements for massage therapy education.</p>
               </div>
             </div>
             <div class="round-white-background-section">
-              <div class="round-green-background-section">
-                <img src="https://cdn-icons-png.freepik.com/512/6808/6808239.png" alt="sparkles" class="icon"/>
+              <div class="round-green-background-section darker-green-background">
+                <img src="https://images.vexels.com/media/users/3/143402/isolated/svg/afbbf15d5e82a1c4fb5a55c4eacf3003.svg" alt="graduation cap icon" class="icon"/>
               </div>
               <div class="text-content">
-                <h3>Career Support</h3>
-                <p>From resume building to job placement assistance, we support you every step of the way as you launch your massage therapy career.</p>
+                <h3>Licensure Preparation</h3>
+                <p>Curriculum designed to prepare students for Arkansas state licensure examinations.</p>
+              </div>
+            </div>
+            <div class="round-white-background-section">
+              <div class="round-green-background-section darker-green-background">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/briefcase-icon.png" alt="briefcase icon" class="icon"/>
+              </div>
+              <div class="text-content">
+                <h3>Career Ready</h3>
+                <p>Training for diverse career paths in clinical, wellness, and therapeutic settings.</p>
               </div>
             </div>
           </div>
@@ -236,7 +244,29 @@
     height: 25px;
   }
 
+  .darker-green-background {
+    background-color: #edf6e5; /* A slightly darker shade of green */
+  }
+
+  .school-overview-blocks {
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2em;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+  }
+
+  .school-overview-blocks .round-white-background-section {
+    margin: 0;
+    max-width: 100%;
+  }
+
   @media (max-width: 768px) {
+    .school-overview-blocks {
+      grid-template-columns: 1fr;
+    }
+
     .full-width-green-background-section .new-section-container {
       flex-direction: column;
       gap: 1em;

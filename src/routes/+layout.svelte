@@ -17,7 +17,7 @@
 </main>
 
 <footer class="footer">
-  <p>Hi!</p>
+  <p>Made with ♥ by Joshua Francis</p>
 </footer>
 
 <style>
