@@ -1,3 +1,7 @@
+<script>
+  import coloring from '$lib/images/coloring.jpeg';
+</script>
+
 <svelte:head>
   <title>Curriculum | Ozark Mountain Massage Institute</title>
 </svelte:head>
@@ -16,6 +20,10 @@
       <li>Comply with all attendance and conduct policies throughout the program.</li>
   </ul>
   <p>Only students who meet all of these requirements will be eligible to receive a certificate of graduation.</p>
+
+  <div class="image-container">
+    <img src={coloring} alt="Student coloring anatomical diagrams" class="curriculum-image" />
+  </div>
 </div>
 
 <style>
@@ -25,8 +33,21 @@
     padding: 2em;
   }
 
+  .image-container {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .curriculum-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
   header {
-    text-align: center;
+...
     margin-bottom: 2em;
   }
 

@@ -1,5 +1,6 @@
 <script>
   import logo from '$lib/images/logo.png';
+  import neckMassage from '$lib/images/Working on neck.jpeg';
 </script>
 
 <svelte:head>
@@ -43,7 +44,7 @@
     <div class="content-container">
       <div class="new-section-container">
         <div class="left-panel">
-          <img src="https://images.unsplash.com/photo-1758206523705-666590ae0a66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwZWR1Y2F0aW9uJTIwY2xhc3Nyb29tfGVufDF8fHx8MTc2MjYxMzcxNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="TODO: alt text after I find a good pic"/>
+          <img src={neckMassage} alt="Student working on a client's neck"/>
         </div>
         <div class="right-panel">
           <div class="stacked-blocks-container">
