@@ -1,3 +1,7 @@
+<script>
+  import logo from '$lib/images/logo.png';
+</script>
+
 <svelte:head>
   <title>Ozark Mountain Massage Institute</title>
 </svelte:head>
@@ -7,6 +11,7 @@
       <div class="new-section-container">
         <div class="left-panel">
           <div>
+            <img src={logo} alt="OMMI Logo" class="hero-logo" />
             <h1>Train today for a rewarding career in the rapidly growing wellness industry</h1>
           </div>
           <div>
@@ -148,6 +153,15 @@
     height: auto;
     display: block;
     border-radius: 10px;
+  }
+
+  .left-panel .hero-logo {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto 1.5em auto;
+    border-radius: 25px;
+    display: block;
   }
 
   /* Specific styling for the image in the first section */
