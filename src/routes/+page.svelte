@@ -9,20 +9,11 @@
 
 <div class="page-wrapper">
   <section class="full-width-green-background-section">
-      <div class="new-section-container">
-        <div class="left-panel">
-          <div>
-            <img src={logo} alt="OMMI Logo" class="hero-logo" />
-            <h1>Train today for a rewarding career in the rapidly growing wellness industry</h1>
-          </div>
-          <div>
-            <p>Transform your passion for wellness into a career in massage therapy. A new path. A new purpose. A new career - all in under a year!</p>
-          </div>
-        </div>
-        <div class="right-panel">
-          <img src="https://images.unsplash.com/photo-1598901986949-f593ff2a31a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXNzYWdlJTIwdGhlcmFweSUyMHdlbGxuZXNzfGVufDF8fHx8MTc2MjYxNjE5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Woman recieving a head massage" class="first-section-image"/>
-        </div>
-      </div>
+    <div class="hero-content">
+      <img src={logo} alt="OMMI Logo" class="hero-logo" />
+      <h1>Train today for a rewarding career in the rapidly growing wellness industry</h1>
+      <p>Transform your passion for wellness into a career in massage therapy. A new path. A new purpose. A new career - all in under a year!</p>
+    </div>
   </section>
 
   <section>
@@ -139,38 +130,32 @@
     padding: 0 2em;
   }
 
+  .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2em;
+  }
+
   .left-panel {
     flex: 1;
   }
 
-  .right-panel {
-    flex: 1;
-  }
-
   /* Generic image styling, will be overridden by more specific classes where needed */
-  .left-panel img,
-  .right-panel img {
+  .left-panel img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 10px;
   }
 
-  .left-panel .hero-logo {
+  .hero-logo {
     width: 100%;
     max-width: 700px;
     height: auto;
     margin: 0 auto 1.5em auto;
     border-radius: 25px;
     display: block;
-  }
-
-  /* Specific styling for the image in the first section */
-  .full-width-green-background-section .right-panel .first-section-image {
-    width: 100%;
-    height: 500px;
-    max-width: 700px;
-    object-fit: cover; /* This will crop the image to fit, preserving aspect ratio */ /* Allegedly 𓅦 */
   }
 
   .content-container {
@@ -286,19 +271,16 @@
       grid-template-columns: 1fr;
     }
 
-    .full-width-green-background-section .new-section-container {
+    .new-section-container {
       flex-direction: column;
       gap: 1em;
       align-items: center;
     }
-    .full-width-green-background-section .left-panel,
-    .full-width-green-background-section .right-panel {
+    .left-panel,
+    .right-panel {
       flex: none;
       width: 100%;
       text-align: center;
-    }
-    .full-width-green-background-section .right-panel .first-section-image {
-        max-width: 100%; /* Ensure image doesn't overflow on small screens */
     }
   }
 </style>
