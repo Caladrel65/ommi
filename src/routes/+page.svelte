@@ -99,7 +99,7 @@
               </div>
               <div class="text-content">
                 <h3>Licensure Preparation</h3>
-                <p>Curriculum designed to prepare students for Arkansas state licensure examinations.</p>
+                <p>Curriculum designed to prepare students for Arkansas State and National licensure examinations.</p>
               </div>
             </div>
             <div class="round-white-background-section">
@@ -107,8 +107,8 @@
                 <img src="https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/briefcase-icon.png" alt="briefcase icon" class="icon"/>
               </div>
               <div class="text-content">
-                <h3>Career Ready</h3>
-                <p>Training for diverse career paths in clinical, wellness, and therapeutic settings.</p>
+                <h3>Career Readiness</h3>
+                <p>Training for diverse career paths in clinical, wellness, spa, and therapeutic settings.</p>
               </div>
             </div>
           </div>
