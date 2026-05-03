@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Contact | Ozark Mountain Massage Institute</title>
+</svelte:head>
+
 <div class="container">
     <header>
         <h1>Contact Us</h1>

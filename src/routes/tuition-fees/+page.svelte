@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Tuition & Fees | Ozark Mountain Massage Institute</title>
+</svelte:head>
+
 <div class="container">
   <header>
     <h1>Tuition</h1>

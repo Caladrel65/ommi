@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Ozark Mountain Massage Institute</title>
+</svelte:head>
+
 <div class="page-wrapper">
   <section class="full-width-green-background-section">
       <div class="new-section-container">

@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Ozark Mountain Massage Institute</title>
+</svelte:head>
+
 <header class="header">
   <nav class="nav">
     <a href="/" class="nav-left">OMMI</a>
