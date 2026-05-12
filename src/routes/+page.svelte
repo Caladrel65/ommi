@@ -1,120 +1,201 @@
 <script>
-  import logo from '$lib/images/logo.png';
-  import neckMassage from '$lib/images/Working on neck.jpeg';
+	import logo from '$lib/images/logo.png';
+	import neckMassage from '$lib/images/working-on-neck.jpeg';
 </script>
 
 <svelte:head>
-  <title>Ozark Mountain Massage Institute</title>
+	<title>Ozark Mountain Massage Institute</title>
 </svelte:head>
 
 <div class="page-wrapper">
-  <section class="full-width-green-background-section">
-    <div class="hero-content">
-      <img src={logo} alt="OMMI Logo" class="hero-logo" />
-      <h1>Train today for a rewarding career in the rapidly growing wellness industry</h1>
-      <p>Transform your passion for wellness into a career in massage therapy. A new path. A new purpose. A new career - all in under a year!</p>
-    </div>
-  </section>
+	<section class="full-width-green-background-section">
+		<div class="hero-content">
+			<img src={logo} alt="OMMI Logo" class="hero-logo" />
+			<h1>Train today for a rewarding career in the rapidly growing wellness industry</h1>
+			<p>
+				Transform your passion for wellness into a career in massage therapy. A new path. A new
+				purpose. A new career - all in under a year!
+			</p>
+		</div>
+	</section>
 
-  <section>
-    <div class="content-container">
-      <h2>Why Choose Ozark Mountain Massage Institute?</h2>
-      <p>The wellness industry is estimated at a whopping $1.5 TRILLION, with an annual growth rate of 5-10%. In the US, the employment of massage therapists is projected to grow faster than the average for all occupations, with the Bureau of Labor Statistics forecasting a 15% growth from 2024 to 2034. In about 6 short months you can be fully trained to begin your new career in the lucrative and very rewarding self-care industry, right here in the beautiful Ozark Mountains. Our instructors are among the best, most sought-after massage therapists in the state, and have a combined experience of over 40 years in the massage industry.</p>
-    </div>
-  </section>
+	<section>
+		<div class="content-container">
+			<h2>Why Choose Ozark Mountain Massage Institute?</h2>
+			<p>
+				The wellness industry is estimated at a whopping $1.5 TRILLION, with an annual growth rate
+				of 5-10%. In the US, the employment of massage therapists is projected to grow faster than
+				the average for all occupations, with the Bureau of Labor Statistics forecasting a 15%
+				growth from 2024 to 2034. In about 6 short months you can be fully trained to begin your new
+				career in the lucrative and very rewarding self-care industry, right here in the beautiful
+				Ozark Mountains. Our instructors are among the best, most sought-after massage therapists in
+				the state, and have a combined experience of over 40 years in the massage industry.
+			</p>
+		</div>
+	</section>
 
-  <section class="round-green-background-section">
-    <div class="content-container">
-      <h2>Mission Statement</h2>
-      <p>At Ozark Mountain Massage Institute, our mission is to nurture and empower aspiring therapists with the knowledge, skills, and compassion needed to excel in the art of healing touch. Through a comprehensive and holistic approach to education, we strive to cultivate an environment of excellence and integrity, fostering personal and professional growth in each student.</p>
-      <p>We are committed to producing graduates who are not only adept in therapeutic techniques but also uphold the highest standards of ethics and empathy, serving their clients with respect and dignity. Our aim is to contribute positively to the health and wellness of our community and beyond.</p>
-    </div>
-  </section>
+	<section class="round-green-background-section">
+		<div class="content-container">
+			<h2>Mission Statement</h2>
+			<p>
+				At Ozark Mountain Massage Institute, our mission is to nurture and empower aspiring
+				therapists with the knowledge, skills, and compassion needed to excel in the art of healing
+				touch. Through a comprehensive and holistic approach to education, we strive to cultivate an
+				environment of excellence and integrity, fostering personal and professional growth in each
+				student.
+			</p>
+			<p>
+				We are committed to producing graduates who are not only adept in therapeutic techniques but
+				also uphold the highest standards of ethics and empathy, serving their clients with respect
+				and dignity. Our aim is to contribute positively to the health and wellness of our community
+				and beyond.
+			</p>
+		</div>
+	</section>
 
-  <section>
-    <div class="content-container">
-      <div class="new-section-container">
-        <div class="left-panel">
-          <img src={neckMassage} alt="Student working on a client's neck"/>
-        </div>
-        <div class="right-panel">
-          <div class="stacked-blocks-container">
-            <div class="stacked-block">
-              <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="heart icon" class="icon"/>
-              <div class="text-content">
-                <h3>Expert Faculty</h3>
-                <p>Learn from licensed massage therapists with decades of combined experience in clinical, spa, and sports massage settings.</p>
-              </div>
-            </div>
-            <div class="stacked-block">
-              <img src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/concentric-icon.png" alt="cocentric circles similar to a bullseye" class="icon"/>
-              <div class="text-content">
-                <h3>Hands-On Training</h3>
-                <p>Our curriculum emphasizes practical experience with extensive hands-on practice in our state-of-the-art training facilities.</p>
-              </div>
-            </div>
-            <div class="stacked-block">
-              <img src="https://cdn-icons-png.freepik.com/512/6808/6808239.png" alt="sparkles" class="icon"/>
-              <div class="text-content">
-                <h3>Career Support</h3>
-                <p>From resume building to job placement assistance, we support you every step of the way as you launch your massage therapy career.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<section>
+		<div class="content-container">
+			<div class="new-section-container">
+				<div class="left-panel">
+					<img src={neckMassage} alt="Student working on a client's neck" />
+				</div>
+				<div class="right-panel">
+					<div class="stacked-blocks-container">
+						<div class="stacked-block">
+							<img
+								src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png"
+								alt="heart icon"
+								class="icon"
+							/>
+							<div class="text-content">
+								<h3>Expert Faculty</h3>
+								<p>
+									Learn from licensed massage therapists with decades of combined experience in
+									clinical, spa, and sports massage settings.
+								</p>
+							</div>
+						</div>
+						<div class="stacked-block">
+							<img
+								src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/concentric-icon.png"
+								alt="cocentric circles similar to a bullseye"
+								class="icon"
+							/>
+							<div class="text-content">
+								<h3>Hands-On Training</h3>
+								<p>
+									Our curriculum emphasizes practical experience with extensive hands-on practice in
+									our state-of-the-art training facilities.
+								</p>
+							</div>
+						</div>
+						<div class="stacked-block">
+							<img
+								src="https://cdn-icons-png.freepik.com/512/6808/6808239.png"
+								alt="sparkles"
+								class="icon"
+							/>
+							<div class="text-content">
+								<h3>Career Support</h3>
+								<p>
+									From resume building to job placement assistance, we support you every step of the
+									way as you launch your massage therapy career.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <section class="full-width-green-background-section">
-    <div class="new-section-container centered-heading-container">
-      <h2>School Overview</h2>
-    </div>
-    <section class="round-white-background-section">
-      <p>Ozark Mountain Massage Institute offers a fully accredited massage therapy program designed to prepare students for licensure and successful careers in a variety of clinical and wellness settings. Our 500 hour curriculum combines hands-on learning, theoretical study, and professional development to equip students for the demands of this dynamic field.</p>
-      <p>Ozark Mountain Massage Institute operates in full compliance with the Arkansas Massage Therapy Act, codified under Arkansas Code §17-86-101 et seq. The Arkansas Department of Health (ADH) is the regulatory authority overseeing all aspects of massage therapy practice, including school licensure, student enrollment, and practitioner licensing.</p>
-    </section>
-    <section>
-      <div class="stacked-blocks-container school-overview-blocks">
-            <div class="round-white-background-section">
-              <div class="round-green-background-section darker-green-background">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ45k8GTfZHqAcNRbHiuvnHnsTseEkyOZ6YDQ&s" alt="book icon" class="icon"/>
-              </div>
-              <div class="text-content">
-                <h3>500 Hour Curriculum</h3>
-                <p>Comprehensive program combining hands-on techniques, theoretical knowledge, and practical application.</p>
-              </div>
-            </div>
-            <div class="round-white-background-section">
-              <div class="round-green-background-section darker-green-background">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/018/887/334/small/black-award-icon-png.png" alt="award icon" class="icon"/>
-              </div>
-              <div class="text-content">
-                <h3>Fully Accredited</h3>
-                <p>Program meets all Arkansas Department of Health requirements for massage therapy education.</p>
-              </div>
-            </div>
-            <div class="round-white-background-section">
-              <div class="round-green-background-section darker-green-background">
-                <img src="https://images.vexels.com/media/users/3/143402/isolated/svg/afbbf15d5e82a1c4fb5a55c4eacf3003.svg" alt="graduation cap icon" class="icon"/>
-              </div>
-              <div class="text-content">
-                <h3>Licensure Preparation</h3>
-                <p>Curriculum designed to prepare students for Arkansas State and National licensure examinations.</p>
-              </div>
-            </div>
-            <div class="round-white-background-section">
-              <div class="round-green-background-section darker-green-background">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/briefcase-icon.png" alt="briefcase icon" class="icon"/>
-              </div>
-              <div class="text-content">
-                <h3>Career Readiness</h3>
-                <p>Training for diverse career paths in clinical, wellness, spa, and therapeutic settings.</p>
-              </div>
-            </div>
-          </div>
-    </section>
-  </section>
+	<section class="full-width-green-background-section">
+		<div class="new-section-container centered-heading-container">
+			<h2>School Overview</h2>
+		</div>
+		<section class="round-white-background-section">
+			<p>
+				Ozark Mountain Massage Institute offers a fully accredited massage therapy program designed
+				to prepare students for licensure and successful careers in a variety of clinical and
+				wellness settings. Our 500 hour curriculum combines hands-on learning, theoretical study,
+				and professional development to equip students for the demands of this dynamic field.
+			</p>
+			<p>
+				Ozark Mountain Massage Institute operates in full compliance with the Arkansas Massage
+				Therapy Act, codified under Arkansas Code §17-86-101 et seq. The Arkansas Department of
+				Health (ADH) is the regulatory authority overseeing all aspects of massage therapy practice,
+				including school licensure, student enrollment, and practitioner licensing.
+			</p>
+		</section>
+		<section>
+			<div class="stacked-blocks-container school-overview-blocks">
+				<div class="round-white-background-section">
+					<div class="round-green-background-section darker-green-background">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ45k8GTfZHqAcNRbHiuvnHnsTseEkyOZ6YDQ&s"
+							alt="book icon"
+							class="icon"
+						/>
+					</div>
+					<div class="text-content">
+						<h3>500 Hour Curriculum</h3>
+						<p>
+							Comprehensive program combining hands-on techniques, theoretical knowledge, and
+							practical application.
+						</p>
+					</div>
+				</div>
+				<div class="round-white-background-section">
+					<div class="round-green-background-section darker-green-background">
+						<img
+							src="https://static.vecteezy.com/system/resources/thumbnails/018/887/334/small/black-award-icon-png.png"
+							alt="award icon"
+							class="icon"
+						/>
+					</div>
+					<div class="text-content">
+						<h3>Fully Accredited</h3>
+						<p>
+							Program meets all Arkansas Department of Health requirements for massage therapy
+							education.
+						</p>
+					</div>
+				</div>
+				<div class="round-white-background-section">
+					<div class="round-green-background-section darker-green-background">
+						<img
+							src="https://images.vexels.com/media/users/3/143402/isolated/svg/afbbf15d5e82a1c4fb5a55c4eacf3003.svg"
+							alt="graduation cap icon"
+							class="icon"
+						/>
+					</div>
+					<div class="text-content">
+						<h3>Licensure Preparation</h3>
+						<p>
+							Curriculum designed to prepare students for Arkansas State and National licensure
+							examinations.
+						</p>
+					</div>
+				</div>
+				<div class="round-white-background-section">
+					<div class="round-green-background-section darker-green-background">
+						<img
+							src="https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/briefcase-icon.png"
+							alt="briefcase icon"
+							class="icon"
+						/>
+					</div>
+					<div class="text-content">
+						<h3>Career Readiness</h3>
+						<p>
+							Training for diverse career paths in clinical, wellness, spa, and therapeutic
+							settings.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
 </div>
 
 <!-- Green is "rooftop garden", blue is "tahoe blue", and there's another one too. -->
@@ -122,165 +203,168 @@
 <!-- Tahoe Blue is #93B8C1 -->
 
 <style>
-  .new-section-container {
-    display: flex;
-    gap: 2em;
-    align-items: center;
-    margin-bottom: 2em;
-    padding: 0 2em;
-  }
+	.new-section-container {
+		display: flex;
+		gap: 2em;
+		align-items: center;
+		margin-bottom: 2em;
+	}
 
-  .hero-content {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 2em;
-  }
+	.hero-content {
+		max-width: 900px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 2em;
+	}
 
-  .left-panel {
-    flex: 1;
-  }
+	.left-panel,
+	.right-panel {
+		flex: 1;
+		min-width: 0;
+	}
 
-  /* Generic image styling, will be overridden by more specific classes where needed */
-  .left-panel img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-  }
+	/* Generic image styling, will be overridden by more specific classes where needed */
+	.left-panel img {
+		width: 100%;
+		height: auto;
+		display: block;
+		border-radius: 10px;
+	}
 
-  .hero-logo {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    margin: 0 auto 1.5em auto;
-    border-radius: 25px;
-    display: block;
-  }
+	.hero-logo {
+		width: 100%;
+		max-width: 700px;
+		height: auto;
+		margin: 0 auto 1.5em auto;
+		border-radius: 25px;
+		display: block;
+	}
 
-  .content-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2em;
-  }
+	.content-container {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0 2em;
+	}
 
-  .full-width-green-background-section {
-    background-color: var(--color-light-background); /* #A0AC94 seems too harsh though unless we can bring the whole tone down. */
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
+	.full-width-green-background-section {
+		background-color: var(
+			--color-light-background
+		); /* #A0AC94 seems too harsh though unless we can bring the whole tone down. */
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
 
-  .round-green-background-section {
-    background-color: var(--color-light-background);
-    border-radius: 15px;
-    padding: 2em;
-    margin: 2em auto;
-    max-width: 800px;
-  }
+	.round-green-background-section {
+		background-color: var(--color-light-background);
+		border-radius: 15px;
+		padding: 2em;
+		margin: 2em auto;
+		max-width: 800px;
+	}
 
-  .round-white-background-section {
-    background-color: var(--color-background-light);
-    border-radius: 15px;
-    border-color: var(--color-dark);
-    padding: 2em;
-    margin: 2em auto;
-    max-width: 800px;
-  }
+	.round-white-background-section {
+		background-color: var(--color-background-light);
+		border-radius: 15px;
+		border-color: var(--color-dark);
+		padding: 2em;
+		margin: 2em auto;
+		max-width: 800px;
+	}
 
-  h1 {
-    font-size: 2.5em;
-  }
+	h1 {
+		font-size: 2.5em;
+	}
 
-  h2 {
-    font-size: 1.8em;
-    margin-top: 1.5em;
-  }
+	h2 {
+		font-size: 1.8em;
+		margin-top: 1.5em;
+	}
 
-  .centered-heading-container {
-    justify-content: center;
-  }
+	.centered-heading-container {
+		justify-content: center;
+	}
 
-  .stacked-blocks-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-  }
+	.stacked-blocks-container {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5em;
+	}
 
-  .stacked-block {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    padding: 1em;
-    border-radius: 8px;
-  }
+	.stacked-block {
+		display: flex;
+		align-items: center;
+		gap: 1em;
+		padding: 1em;
+		border-radius: 8px;
+	}
 
-  .stacked-block .icon {
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-  }
+	.stacked-block .icon {
+		width: 40px;
+		height: 40px;
+		flex-shrink: 0;
+	}
 
-  .stacked-block .text-content {
-    flex-grow: 1;
-  }
+	.stacked-block .text-content {
+		flex-grow: 1;
+	}
 
-  .stacked-block h3 {
-    margin: 0 0 0.5em 0;
-    font-size: 1.2em;
-  }
+	.stacked-block h3 {
+		margin: 0 0 0.5em 0;
+		font-size: 1.2em;
+	}
 
-  .stacked-blocks-container .round-white-background-section .round-green-background-section {
-    padding: 10px;
-    margin: 0;
-  }
+	.stacked-blocks-container .round-white-background-section .round-green-background-section {
+		padding: 10px;
+		margin: 0;
+	}
 
-  .stacked-blocks-container .round-white-background-section {
-    display: flex;
-    align-items: baseline;
-    gap: 1em;
-  }
-  .stacked-block p {
-    margin: 0;
-  }
+	.stacked-blocks-container .round-white-background-section {
+		display: flex;
+		align-items: baseline;
+		gap: 1em;
+	}
+	.stacked-block p {
+		margin: 0;
+	}
 
-  .round-white-background-section .round-green-background-section .icon {
-    width: 25px;
-    height: 25px;
-  }
+	.round-white-background-section .round-green-background-section .icon {
+		width: 25px;
+		height: 25px;
+	}
 
-  .darker-green-background {
-    background-color: #edf6e5; /* A slightly darker shade of green */
-  }
+	.darker-green-background {
+		background-color: #edf6e5; /* A slightly darker shade of green */
+	}
 
-  .school-overview-blocks {
-    display: grid;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2em;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5em;
-  }
+	.school-overview-blocks {
+		display: grid;
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0 2em;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1.5em;
+	}
 
-  .school-overview-blocks .round-white-background-section {
-    margin: 0;
-    max-width: 100%;
-  }
+	.school-overview-blocks .round-white-background-section {
+		margin: 0;
+		max-width: 100%;
+	}
 
-  @media (max-width: 768px) {
-    .school-overview-blocks {
-      grid-template-columns: 1fr;
-    }
+	@media (max-width: 768px) {
+		.school-overview-blocks {
+			grid-template-columns: 1fr;
+		}
 
-    .new-section-container {
-      flex-direction: column;
-      gap: 1em;
-      align-items: center;
-    }
-    .left-panel,
-    .right-panel {
-      flex: none;
-      width: 100%;
-      text-align: center;
-    }
-  }
+		.new-section-container {
+			flex-direction: column;
+			gap: 1em;
+			align-items: center;
+		}
+		.left-panel,
+		.right-panel {
+			flex: none;
+			width: 100%;
+			text-align: center;
+		}
+	}
 </style>
