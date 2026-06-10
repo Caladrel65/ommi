@@ -1,5 +1,5 @@
 <script>
-	import coloring from '$lib/images/coloring.jpeg';
+	import coloring from '$lib/images/coloring.webp';
 </script>
 
 <svelte:head>

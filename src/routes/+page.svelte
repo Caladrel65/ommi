@@ -1,6 +1,6 @@
 <script>
-	import logo from '$lib/images/logo.png';
-	import neckMassage from '$lib/images/working-on-neck.jpeg';
+	import logo from '$lib/images/logo.webp';
+	import neckMassage from '$lib/images/working-on-neck.webp';
 </script>
 
 <svelte:head>
